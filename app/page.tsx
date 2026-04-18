@@ -11,45 +11,31 @@ import Footer from '../components/Footer';
 import { ProductWithSlug, ProductType } from '../types/Product';
 
 export const metadata: Metadata = {
-    title: 'Google Graveyard - Killed by Google',
-    description: 'Killed by Google is the Google Graveyard. A full list of dead products killed by Google in the Google Cemetery.',
-    keywords: ['Google', 'graveyard', 'killed', 'products', 'services'],
-    authors: [{ name: 'Cody Ogden' }],
+    title: 'Laravel Graveyard - Killed by Laravel',
+    description: 'Killed by Laravel is the Laravel Graveyard. A full list of dead products killed by Laravel in the Laravel Cemetery.',
+    keywords: ['Laravel', 'graveyard', 'killed', 'products', 'services'],
+    authors: [{ name: 'Cody Ogden' }, { name: 'Sije Harkema' }],
     creator: 'Cody Ogden',
-    publisher: 'Cody Ogden',
-    metadataBase: new URL('https://killedbygoogle.com'),
+    publisher: 'Sije Harkema',
+    metadataBase: new URL('https://killed-by-laravel.harkema.dev'),
     alternates: {
         canonical: '/',
     },
     openGraph: {
-        title: 'Killed by Google',
-        description: 'Killed by Google is the open source list of dead Google products, services, and devices. It serves as a tribute and memorial of beloved services and products killed by Google.',
-        url: 'https://killedbygoogle.com',
-        siteName: 'Killed by Google',
+        title: 'Killed by Laravel',
+        description: 'Killed by Laravel is the open source list of dead Laravel products, services, and devices. It serves as a tribute and memorial of beloved services and products killed by Laravel.',
+        url: 'https://killed-by-laravel.harkema.dev',
+        siteName: 'Killed by Laravel',
         images: [
             {
                 url: '/social/card.png',
                 width: 1200,
                 height: 630,
-                alt: 'Killed by Google',
+                alt: 'Killed by Laravel',
             },
         ],
         locale: 'en_US',
         type: 'website',
-    },
-    twitter: {
-        card: 'summary_large_image',
-        title: 'Killed by Google',
-        description: 'Killed by Google is the Google Graveyard. A full list of dead products killed by Google in the Google Cemetery.',
-        site: '@killedbygoogle',
-        creator: '@killedbygoogle',
-        images: ['/social/card-twitter.png'],
-    },
-    verification: {
-        google: '9y9dretKdifnWDdkbkT9Qm1PtWMIe3qz6R09Xkm8Cdc',
-        other: {
-            'msvalidate.01': '0C9605AF449480F57421EECCA9EB2B8A',
-        },
     },
     other: {
         'theme-color': '#FAFAFA',

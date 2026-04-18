@@ -1,7 +1,8 @@
 <div align="center">
   <img src="https://static.killedbygoogle.com/com/tombstone.png" alt="tombstone" style="height: 80px; width: 80px; padding: 0 20px;">
-  <h1>Killed by Google</h1>
-  <p>A tribute and log of beloved products and services killed by Google.</p>
+  <h1>Killed by Laravel</h1>
+  <p>A tribute and log of beloved products and services killed by Laravel.</p>
+  <p><i>This project is a fork of the great <a href="https://github.com/codyogden/killedbygoogle">Killed by Google</a> by Cody Ogden.</i></p>
 </div>
 
 <div align="center">
@@ -21,7 +22,7 @@ To add a product, gather the following information:
 - Link (`link`) - Relevant link to the source.
 - Type (`type`) - one of App, Service or Hardware
 
-If you are not familiar with or do not want to use `git`, submit a [new issue](https://github.com/codyogden/killedbygoogle/issues/new?template=add-an-obituary.md) requesting the change. If you are already familiar with `git`, follow these steps:
+If you are not familiar with or do not want to use `git`, submit a [new issue](https://github.com/afraca/killed-by-laravel/issues/new?template=add-an-obituary.md) requesting the change. If you are already familiar with `git`, follow these steps:
 
 1. If you haven't already, start by [forking](https://help.github.com/en/articles/fork-a-repo) this repository. 
 1. [Create a new branch](https://help.github.com/en/desktop/contributing-to-projects/creating-a-branch-for-your-work) in your fork. Name it using the product you want to add 
@@ -35,12 +36,12 @@ For code contributions outside of `graveyard.json`, check out the [Contributing 
 ### Editorial Guidelines
 
 #### Description
-The description should be a single sentence describing the product. It should begin with the products name. For example, "Google Reader was an RSS/Atom feed aggregator." It will be attached to a generated sentence like "Killed about 5 years ago, Google Reader was an RSS/Atom feed aggregator."
+The description should be a single sentence describing the product. It should begin with the products name. For example, "Laravel Elixir was a fluent wrapper around Gulp." It will be attached to a generated sentence like "Killed about 5 years ago, Laravel Elixir was a fluent wrapper around Gulp."
 
 Please be respectful, only use past tense.
 
 #### Link
-Link should be a resource that mentions the discontinuation date and talks about the product. Links to Wikipedia or a news organization should be prioritized. **Please do not use Google Support articles, linking to the product's URL, the product's marketing URL, or other Google-provided links.** Google removes these links quickly after a service is ended.
+Link should be a resource that mentions the discontinuation date and talks about the product. Links to Wikipedia or a news organization should be prioritized. **Please do not use official Laravel documentation or marketing links.** These are often removed or redirected after a project is deprecated.
 
 #### Type
 The type should be either `app`, `service`, or `hardware` as a string.

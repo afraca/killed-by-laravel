@@ -1,4 +1,4 @@
-import { ProductWithSlug } from 'types/Product';
+﻿import { ProductWithSlug } from 'types/Product';
 
 import { Carbon, SRT } from 'components';
 import Item from 'components/List/Item';
@@ -11,15 +11,6 @@ import Link from 'next/link';
 export const FallbackAd = () => <></>;
 
 const showAd = () => {
-    if (process.env.NODE_ENV === 'production')
-        return (
-            <Carbon
-                name="kbg-carbon"
-                placement="killedbygooglecom"
-                serve="CK7I653N"
-                fallback={<FallbackAd />}
-            />
-        );
     return <FallbackAd />
 };
 

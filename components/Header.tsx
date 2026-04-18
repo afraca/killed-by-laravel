@@ -8,7 +8,7 @@ const Header = () => (
                 <div className={styles.logo}>
                     <img width="60px" src="https://static.killedbygoogle.com/com/tombstone.svg" height="60px" alt="Tombstone" />
                 </div>
-                <h1 className={styles.title}>Killed by Google</h1>
+                <h1 className={styles.title}>Killed by Laravel</h1>
             </div>
         </Link>
     </header>
