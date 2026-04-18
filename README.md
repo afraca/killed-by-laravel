@@ -20,7 +20,7 @@ To add a product, gather the following information:
 - Discontinued Date (`dateClose`)
 - Description (`description`)
 - Link (`link`) - Relevant link to the source.
-- Type (`type`) - one of App, Service or Hardware
+- Type (`type`) - one of App or Service
 
 If you are not familiar with or do not want to use `git`, submit a [new issue](https://github.com/afraca/killed-by-laravel/issues/new?template=add-an-obituary.md) requesting the change. If you are already familiar with `git`, follow these steps:
 
@@ -44,4 +44,4 @@ Please be respectful, only use past tense.
 Link should be a resource that mentions the discontinuation date and talks about the product. Links to Wikipedia or a news organization should be prioritized. **Please do not use official Laravel documentation or marketing links.** These are often removed or redirected after a project is deprecated.
 
 #### Type
-The type should be either `app`, `service`, or `hardware` as a string.
+The type should be either `app` or `service` as a string.
