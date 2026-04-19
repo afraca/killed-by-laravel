@@ -7,5 +7,8 @@ services:
     restart: unless-stopped
     ports:
       - "3000:3000"
+    labels:
+      caddy: killed-by-laravel.harkema.dev
+      caddy.reverse_proxy: "{{upstreams 80}}"
     environment:
       - NODE_ENV=production
