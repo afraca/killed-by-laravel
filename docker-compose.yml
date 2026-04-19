@@ -9,6 +9,10 @@ services:
       - "3000:3000"
     labels:
       caddy: killed-by-laravel.harkema.dev
-      caddy.reverse_proxy: "{{upstreams 80}}"
+      caddy.reverse_proxy: "{{upstreams 3000}}"
     environment:
       - NODE_ENV=production
+
+networks:
+  caddy:
+    external: true
